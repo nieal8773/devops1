@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.3.4.RELEASE</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>devops1</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<packaging>war</packaging>
 	<name>devops1</name>
 	<description>Devops demo 1</description>
@@ -23,12 +22,12 @@
 		<repository>
 			<id>release</id>
 			<name>releases</name>
-			<url>http://boyzone.local:8081/artifactory/example-repo-local</url>
+			<url>http://192.168.29.151:8081/artifactory/example-repo-local</url>
 		</repository>
 		<snapshotRepository>
 			<id>snapshot</id>
 			<name>snapshots</name>
-			<url>http://boyzone.local:8081/artifactory/artifactory-generic</url>
+			<url>http://192.168.29.151:8081/artifactory/artifactory-generic</url>
 		</snapshotRepository>
 	</distributionManagement>
 	
@@ -36,7 +35,7 @@
 			<connection>scm:git:git@github.com:nieal8773/devops1.git</connection>
 			<developerConnection>scm:git:git@github.com:nieal8773/devops1.git</developerConnection>
 			<url>git@github.com:nieal8773/devops1.git</url>
-			<tag>HEAD</tag>
+			<tag>yes</tag>
 		</scm>
 
 	<dependencies>
