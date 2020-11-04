@@ -23,12 +23,12 @@
 		<repository>
 			<id>release</id>
 			<name>releases</name>
-			<url>http://localhost:8081/artifactory/example-repo-local</url>
+			<url>http://boyzone.local:8081/artifactory/example-repo-local</url>
 		</repository>
 		<snapshotRepository>
 			<id>snapshot</id>
 			<name>snapshots</name>
-			<url>http://localhost:8081/artifactory/artifactory-generic</url>
+			<url>http://boyzone.local:8081/artifactory/artifactory-generic</url>
 		</snapshotRepository>
 	</distributionManagement>
 	
