@@ -9,10 +9,10 @@
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>devops1</artifactId>
-	<version>1.0.0</version>
+	<version>1.1.0</version>
 	<packaging>war</packaging>
 	<name>devops1</name>
-	<description>Devops demo 1</description>
+	<description>Devops demo Project</description>
 
 	<properties>
 		<java.version>11</java.version>
